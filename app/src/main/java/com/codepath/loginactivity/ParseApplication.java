@@ -18,6 +18,6 @@ public class ParseApplication extends Application {
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId("codepath-ig") // should correspond to APP_ID env variable
                 .clientKey("CodepathIGKey")  // set explicitly unless clientKey is explicitly configured on Parse server
-                .server("http://codepath-ig.herokuapp.com/parse").build());
+                .server("https://codepath-ig.herokuapp.com/parse").build());
     }
 }
